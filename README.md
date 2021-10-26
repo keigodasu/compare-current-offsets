@@ -8,8 +8,10 @@ pip3 install -r requirements.txt
 
 ## how to use
 
+use executable binary on Linux
+
 ```
-$ python compare-current-offsets.py --consumer-group "app-A" --source-broker "1.1.1.1:9092" --destination-broker "2.2.2.2:9092"
+$ dist/compare-current-offsets --consumer-group "app-A" --source-broker "1.1.1.1:9092" --destination-broker "2.2.2.2:9092"
 consumer-group    topic               partition    source-current-offset    destination-current-offset  synced
 ----------------  ----------------  -----------  -----------------------  ----------------------------  --------
 app-A             topic01                     0                       13                            13  True
