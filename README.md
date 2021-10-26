@@ -6,9 +6,10 @@ This script is to compare current offset value of a consumer group between speci
 pip3 install -r requirements.txt
 ```
 
-## how to use
+or use executable binary on Linux
 
-use executable binary on Linux
+## how to use
+example of using executable binary
 
 ```
 $ dist/compare-current-offsets --consumer-group "app-A" --source-broker "1.1.1.1:9092" --destination-broker "2.2.2.2:9092"
