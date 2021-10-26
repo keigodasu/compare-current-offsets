@@ -1,5 +1,11 @@
 This script is to compare current offset value of a consumer group between specified two clusters.
 
+## install dependencies
+
+```
+pip3 install -r requirements.txt
+```
+
 ## how to use
 
 ```
